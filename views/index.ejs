@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+     <% include templates/head.ejs %>
+  </head>
+  <body>
+ 	<% var page ="page/"+pagename+".ejs"%>
+    <%- include(page,{
+    	title:title
+}) %>
+     <% include templates/nav.ejs %>
+     <% include templates/opera.ejs %>
+
+  </body>
+    <% include templates/foot.ejs %>
+</html>

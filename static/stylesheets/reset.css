@@ -1,0 +1,38 @@
+html,body,p,h1,ul,li{
+	margin:0;
+	padding:0;
+}
+body{
+	font-size:.125rem;
+}
+ul{
+	list-style: none
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+.f16{
+	font-size: .08333333rem;
+}
+.f18{
+	font-size: .09375rem;
+}
+.f20{
+	font-size: .10416667rem;
+}
+.f22{
+	font-size: .11458333rem;
+}
+.f24{
+	font-size: .125rem;
+}
+.f26{
+	font-size: .13541667rem;
+}
+.f30{
+	font-size: .15625rem;
+}
+.f32{
+	font-size: .16666667rem;
+}

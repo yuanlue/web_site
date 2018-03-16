@@ -1,0 +1,45 @@
+.opera{
+	width: .52083333rem;
+	position: fixed;
+	top:1.5625rem;
+	right:.10416667rem;
+}
+.opera span {
+	display: inline-block;;
+		padding:.13020833rem;
+
+}
+.opera .mesage{
+	background-color: #b53240
+}
+.opera img{
+	width: .26041667rem;
+}
+.opera .tel{
+	background-color: #2764fc
+}
+.pc{
+	display: inline-block;
+}
+.mobile{
+	display: none;
+}
+@media only screen and (max-device-width :750px){ 
+	.pc{
+		display: none
+	}
+	.mobile{
+		display: inline-block;
+	}
+	.opera span{
+		padding:15px;
+	}
+	.opera{
+		bottom:50px;
+		top:auto;
+		width:50px;
+	}
+	.opera img{
+		width:20px;
+	}
+}

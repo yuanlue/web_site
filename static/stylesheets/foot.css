@@ -1,0 +1,35 @@
+footer .foot{
+	color:white;
+	padding: 20px;
+	text-align: center;
+	line-height: .37708333rem;
+	background-color: #242e46;	
+}
+footer .foot img{
+	width: .16666667rem;
+}
+footer .foot > p{
+	line-height: 1;
+}
+footer .copyright{
+	line-height: .26041667rem;
+	text-align: center;
+	font-size: .08333333rem;
+}
+@media only screen and (max-device-width :750px){ 
+	footer .foot{
+	line-height: 50px;
+	background-color: #242e46;	
+}
+	footer .copyright{
+	line-height: 40px;
+	text-align: center;
+	font-size: .08333333rem;
+}
+	footer .foot img{
+		width:25px;
+	}
+	footer .copyright{
+		font-size:12px;
+	}
+}

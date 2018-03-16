@@ -1,0 +1,80 @@
+.nav {
+		position: fixed;
+	top:.3125rem;
+} 
+.nav .nav-button{
+
+	padding:.15625rem .13020833rem;
+	box-sizing:border-box;
+	display: inline-block;
+		width: .53125rem/* 102px */;
+		height: .53125rem;
+		background-color: #2753c2;
+}
+.nav {
+	font-size: 0;
+}
+.nav .nav-button span{
+	height:2px;
+	width:100%;
+	margin:.05208333rem 0;
+	background-color: white;
+	display: block;
+}
+.nav .nav-list{
+	color:white;
+	background-color: rgba(36,46,71,1)
+}
+.nav .nav-list ul{
+	padding-bottom:.26041667rem;
+}
+.nav .nav-list ul li a{
+	width: 100%;
+	position: absolute;
+	left:0;
+	text-align: center;
+	height: .36458333rem;
+	display: inline-block;
+}
+.nav .nav-list ul .active,.nav .nav-list ul li:hover{
+	color:#fafbff;
+	opacity: 1;
+	background-color: #2764fc;
+}
+.nav .nav-list ul li {
+	height:.36458333rem;
+	position: relative;;
+	padding-left:.10416667rem;
+	cursor: pointer;
+	opacity: 0.5;
+	line-height: .36458333rem;
+	padding-left:.26041667rem;
+}
+.nav .nav-list span.logo{
+	display: inline-block;
+	padding:.20833333rem .46041667rem;
+}
+.nav  .foot img{
+	cursor: pointer;
+	width: .10416667rem;
+}
+.nav a:hover{
+	text-decoration: none;
+
+}
+.nav  .foot{
+	background-color: rgba(42,57,85,1);
+	padding:.10416667rem 0;
+	text-align: center;
+}
+.nav .nav-list{
+	display: none
+}
+.nav .nav-list span.logo img{
+	width: .22916667rem;
+}
+@media only screen and (max-device-width :750px){ 
+	.nav{
+		display: none;
+	}
+}
